@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+        }
+        .profile-pic {
+            max-width: 150px;
+            margin: 20px 0;
+        }
+        .section-title {
+            font-size: 1.5em;
+            margin-top: 30px;
+            border-bottom: 2px solid #007bff;
+            display: inline-block;
+        }
+        .contact-info a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        .skills {
+            list-style: none;
+            padding: 0;
+        }
+        .skills li {
+            background: #007bff;
+            color: white;
+            display: inline-block;
+            padding: 5px 10px;
+            margin: 5px 0;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <img src="profile-pic.jpg" alt="Profile Picture" class="profile-pic rounded-circle img-thumbnail">
+                <h2>John Doe</h2>
+                <p>Software Developer</p>
+                <div class="contact-info">
+                    <p>Email: <a href="mailto:john.doe@example.com">john.doe@example.com</a></p>
+                    <p>Phone: <a href="tel:+1234567890">+1 234 567 890</a></p>
+                    <p>LinkedIn: <a href="https://www.linkedin.com/in/johndoe">linkedin.com/in/johndoe</a></p>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="section">
+                    <h3 class="section-title">Profile</h3>
+                    <p>Experienced software developer with a strong background in developing scalable web applications and working with modern web technologies. Adept at problem-solving, teamwork, and continuous learning.</p>
+                </div>
+                <div class="section">
+                    <h3 class="section-title">Experience</h3>
+                    <div class="job">
+                        <h4>Software Engineer</h4>
+                        <p>XYZ Company, Jan 2020 - Present</p>
+                        <ul>
+                            <li>Developed and maintained web applications using React and Node.js.</li>
+                            <li>Collaborated with cross-functional teams to deliver high-quality software.</li>
+                            <li>Implemented RESTful APIs and integrated third-party services.</li>
+                        </ul>
+                    </div>
+                    <div class="job">
+                        <h4>Junior Developer</h4>
+                        <p>ABC Corporation, Jun 2018 - Dec 2019</p>
+                        <ul>
+                            <li>Assisted in developing internal tools and web applications.</li>
+                            <li>Wrote and maintained unit and integration tests.</li>
+                            <li>Participated in code reviews and team meetings.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="section">
+                    <h3 class="section-title">Education</h3>
+                    <p>Bachelor of Science in Computer Science</p>
+                    <p>University of Technology, 2014 - 2018</p>
+                </div>
+                <div class="section">
+                    <h3 class="section-title">Skills</h3>
+                    <ul class="skills">
+                        <li>JavaScript</li>
+                        <li>React</li>
+                        <li>Node.js</li>
+                        <li>HTML & CSS</li>
+                        <li>Git</li>
+                        <li>SQL</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
